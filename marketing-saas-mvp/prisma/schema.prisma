@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id         String   @id @default(cuid())
+  name       String
+  product    String
+  audience   String
+  objective  String
+  offer      String?
+  channel    String?
+  objections String?
+  stage      String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  runs       Run[]
+}
+
+model Run {
+  id            String   @id @default(cuid())
+  projectId     String
+  inputJson     String
+  outputJson    String?
+  outputText    String?
+  model         String
+  status        String   @default("completed")
+  responseId    String?
+  estimatedCost String?
+  createdAt     DateTime @default(now())
+  project       Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+}
