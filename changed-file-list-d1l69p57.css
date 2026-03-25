@@ -1,0 +1,1 @@
+._UzIoW_glow{position:relative}@keyframes _UzIoW_glowFlash{0%{opacity:0}8%{opacity:1}80%{opacity:1}to{opacity:0}}._UzIoW_glow:after{opacity:0;content:"";z-index:2;box-shadow:0 0 2px 1px var(--border-xheavy);border-radius:16px;animation:1.8s ease-out forwards _UzIoW_glowFlash;position:absolute;inset:4px 0 0}
