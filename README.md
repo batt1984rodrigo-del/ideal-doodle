@@ -120,7 +120,7 @@ Tecnologia como **infraestrutura de confiança operacional**: organiza fluxos, r
  * Não conclua sem base suficiente
  * Não trate hipótese como fato
  * Não use promessas irreais
- * Preserve autoria
+ * Preserve autoria 
  * Toda recomendação deve ser justificável
  * Explique critérios sempre que possível
  * Em temas sensíveis, priorize governança e revisão humana
