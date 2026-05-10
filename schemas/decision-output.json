@@ -1,0 +1,28 @@
+{
+  "decisionId": "",
+  "timestamp": "",
+  "context": "",
+  "goal": "",
+  "facts": [],
+  "inferences": [],
+  "hypotheses": [],
+  "recommendedActions": [],
+  "executionPlan": [
+    {
+      "step": "",
+      "priority": "LOW",
+      "dependency": "",
+      "estimatedImpact": "",
+      "owner": ""
+    }
+  ],
+  "complianceFlags": [],
+  "auditTrail": {
+    "criteriaUsed": [],
+    "rulesTriggered": [],
+    "confidenceScore": 0,
+    "humanApprovalRequired": true,
+    "approved": false,
+    "decisionVersion": "v1"
+  }
+}
